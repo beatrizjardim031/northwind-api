@@ -111,7 +111,7 @@ public class Product {
         this.reorderLevel = reorderLevel;
     }
 
-    public boolean isDiscontinued() {
+    public Boolean isDiscontinued() {
         return discontinued;
     }
 
