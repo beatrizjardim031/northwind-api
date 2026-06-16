@@ -16,10 +16,10 @@ public class Product {
     private String productName;
 
     @Column(name = "SupplierID")
-    private int supplierId;
+    private Integer supplierId;
 
     @Column(name = "CategoryID")
-    private int categoryId;
+    private Integer categoryId;
 
     @Column(name = "QuantityPerUnit")
     private String quantityPerUnit;
@@ -28,16 +28,16 @@ public class Product {
     private BigDecimal unitPrice;
 
     @Column(name = "UnitsInStock")
-    private int unitsInStock;
+    private Integer unitsInStock;
 
     @Column(name = "UnitsOnOrder")
-    private int unitsOnOrder;
+    private Integer unitsOnOrder;
 
     @Column(name = "ReorderLevel")
-    private int reorderLevel;
+    private Integer reorderLevel;
 
     @Column(name = "Discontinued")
-    private boolean discontinued;
+    private Boolean discontinued;
 
     public Long getProductId() {
         return productId;
@@ -55,19 +55,19 @@ public class Product {
         this.productName = productName;
     }
 
-    public int getSupplierId() {
+    public Integer getSupplierId() {
         return supplierId;
     }
 
-    public void setSupplierId(int supplierId) {
+    public void setSupplierId(Integer supplierId) {
         this.supplierId = supplierId;
     }
 
-    public int getCategoryId() {
+    public Integer getCategoryId() {
         return categoryId;
     }
 
-    public void setCategoryId(int categoryId) {
+    public void setCategoryId(Integer categoryId) {
         this.categoryId = categoryId;
     }
 
@@ -87,27 +87,27 @@ public class Product {
         this.unitPrice = unitPrice;
     }
 
-    public int getUnitsInStock() {
+    public Integer getUnitsInStock() {
         return unitsInStock;
     }
 
-    public void setUnitsInStock(int unitsInStock) {
+    public void setUnitsInStock(Integer unitsInStock) {
         this.unitsInStock = unitsInStock;
     }
 
-    public int getUnitsOnOrder() {
+    public Integer getUnitsOnOrder() {
         return unitsOnOrder;
     }
 
-    public void setUnitsOnOrder(int unitsOnOrder) {
+    public void setUnitsOnOrder(Integer unitsOnOrder) {
         this.unitsOnOrder = unitsOnOrder;
     }
 
-    public int getReorderLevel() {
+    public Integer getReorderLevel() {
         return reorderLevel;
     }
 
-    public void setReorderLevel(int reorderLevel) {
+    public void setReorderLevel(Integer reorderLevel) {
         this.reorderLevel = reorderLevel;
     }
 
@@ -115,7 +115,7 @@ public class Product {
         return discontinued;
     }
 
-    public void setDiscontinued(boolean discontinued) {
+    public void setDiscontinued(Boolean discontinued) {
         this.discontinued = discontinued;
     }
 }
